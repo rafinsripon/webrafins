@@ -1,0 +1,800 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .portfolio-text a {
+        top: 56px;
+        left: 140px;
+    }
+
+    .portfolio-text h6 {
+        font-size: 32px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    /*==============================
+    About Section
+    ================================ */
+    .common-text-title h2 {
+        font-size: 34px;
+    }
+    
+    .common-text-title p {
+        font-size: 14px;
+    }
+
+    /*==============================
+    Service Section
+    ================================ */
+    .service-title {
+        padding: 35px 20px 54px 0;
+    }
+    
+    .service-title h2 {
+        font-size: 40px;
+        padding: 15px 0;
+    }
+
+    .service-title h3 {
+        font-size: 40px;
+        padding: 10px 0 32px 0;
+    }
+
+    .octa-processnig {
+        margin-top: 40px;
+    }
+
+    /*==============================
+    Skills Section
+    ================================ */
+    .single-progess.mb-30 {
+        margin-bottom: 20px;
+    }
+
+    .skill-title h2 {
+        font-size: 35px;
+    }
+
+    .skill-img-content span {
+        font-size: 130px;
+    }
+
+    .skill-img-content h3 {
+        font-size: 30px;
+    }
+
+    /*==============================
+    Portfolio Section
+    ================================ */
+    .portfolio-text a {
+        position: relative;
+        top: 20px;
+        left: 70px;
+        font-size: 30px;
+    }
+
+    /*==============================
+    Blog Section
+    ================================ */
+    .blog-title {
+        width: 68%;
+    }
+
+    .single-blog .single-blog-title {
+        top: 20%;
+    }
+
+    .single-blog .single-blog-title h3 {
+        font-size: 18px;
+        transform: translateY(72px);
+    }
+
+    .single-blog .single-blog-title p {
+        transform: translateY(46px);
+    }
+
+    /*==============================
+    testimonial Section
+    ================================ */
+    .client-review p {
+        font-size: 22px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*==============================
+    Header Section
+    ================================ */
+    .logo img{
+        width: 40%;
+    }
+
+    .logo span {
+        font-size: 20px;
+    }
+    
+    .main-menu .main-nav li {
+        padding: 0px 0px;
+    
+    }
+    
+    .main-menu .main-nav li a {
+        font-size: 20px;
+    }
+
+    /*==============================
+    Hero Section
+    ================================ */
+    .hello-text {
+        font-size: 29px;
+    }
+    
+    .slider-content span{
+        font-size: 24px;
+    }
+    
+    .slider-content h1 {
+        font-size: 56px;
+    }
+
+    .slider-content h1 span {
+        font-size: 55px;
+    }  
+
+    .slider-content p {
+        font-size: 16px;
+    }
+
+    .circle-inner-one::after {
+        content: "";
+        position: absolute;
+        bottom: 70px;
+        transform: rotate(45deg) scale(1.5);
+        border-width: 50px;
+    }
+
+    /*==============================
+    About Section
+    ================================ */
+    #about {
+        padding-top: 50px;
+    }
+
+    .common-text-title {
+        margin-top: 40px;
+    }
+
+    .about-img img {
+        padding: 0 60px;
+    }
+
+    .about-img::after {
+        content: "";
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 90px;
+        border: 50px solid #000;
+    }
+    
+    .about-img::before {
+        content: "";
+        position: absolute;
+        width: 300px;
+        top: 290px;
+        height: 300px;
+    }
+    /*==============================
+    Service Section
+    ================================ */
+    #services {
+        padding-top: 50px;
+    }
+
+    .octa-processnig {
+        margin-top: 40px;
+    }
+
+    .service-title h3 {
+        padding: 10px 0 10px 0;
+    }
+
+    .service-title {
+        padding: 50px 20px 55px 0;
+    }
+    
+    /*==============================
+    Skill Section
+    ================================ */
+    .skill-area {
+        padding-top: 50px;
+    }
+
+    /*==============================
+    Portfolio Section
+    ================================ */
+    #portfolio {
+        padding-bottom: 30px;
+    }
+
+    .portfolio-text a {
+        top: 40px;
+        left: 100px;
+    }
+    
+    /*==============================
+    counter Section
+    ================================ */
+    .counter-area {
+        padding-top: 20px;
+    }
+    
+    .single-counter {
+        margin-top: 60px;
+    }
+
+    /*==============================
+    Blog Section
+    ================================ */
+    .single-blog .single-blog-title {
+        top: 60%;
+    }
+
+    .single-blog{
+        margin-top: 30px;
+    }
+
+    .blog-title {
+        width: 72%;
+    }
+    
+    .blog-title span {
+        bottom: 52%;
+        left: -9%;
+        font-size: 20px;
+    }
+    
+    .blog-title::before {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        left: -28px;
+    }
+    
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /*==============================
+    Mobile Menu
+    ================================ */
+    .mobile-menu span{
+        display: block;
+    }
+
+    .main-menu .main-nav{
+        display: none;
+    }
+
+    .logo {
+        padding: 15px 10px;
+    }
+
+    /*==============================
+    Hero Section
+    ================================ */
+    .single-slider {
+        min-height: 690px;
+    }
+    
+    .slider-content span {
+        font-size: 24px;
+    }
+    .slider-content {
+        width: 100%;
+    }
+    .hello-text {
+        font-size: 29px;
+    }
+    .slider-content span{
+        font-size: 30px;
+    }
+    
+    .slider-content h1 {
+        font-size: 65px;
+    }
+    .slider-content h1 span {
+        font-size: 50px;
+    }
+    .slider-content p {
+        font-size: 16px;
+    }
+    .circle-inner-one::after {
+        right: 35px;
+        bottom: 250px;
+        width: 250px;
+        height: 250px;
+        transform: rotate(45deg) scale(1.5);
+    }
+    
+    .circle-inner-one::before {
+        width: 250px;
+        height: 250px;
+        left: 20%;
+        bottom: 110px;
+        transform: scale(1.5);
+    }
+    /*==============================
+    About Section
+    ================================ */
+    #about {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .about-img::after {
+        width: 300px;
+        height: 300px;
+        top: 40px;
+        left: 90px;
+    }
+    
+    .about-img::before {
+        width: 300px;
+        top: 360px;
+        left: 70px;
+        height: 300px;
+    }
+    .common-text-title{
+        padding-left: 24px;
+        margin-top: 40px;
+    }
+    
+    .common-text-title .subtitle {
+        left: -60px;
+        font-size: 27px;
+        display: block;
+        top: -85px;;
+    }
+    
+    .common-text-title h2 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    
+    .common-text-title p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    /*==============================
+    Service Section
+    ================================ */
+    #services {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .octa-processnig {
+        margin-top: 40px;
+    }
+
+    .col-4.col-lg-4 {
+        max-width: 100%;
+        flex: 100%;
+    }
+
+    .service-title {
+        padding: 40px 20px 20px 0;
+    }
+
+    .service-title h3{
+        padding: 10px 0 10px 0;
+    }
+
+    /*==============================
+    Skills Section
+    ================================ */
+    .skill-area{
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .skill-right-content {
+        padding-top: 50px;
+    }
+
+    /*==============================
+    Portfolio Section
+    ================================ */
+    #portfolio {
+        padding-bottom: 0;
+    }
+
+    .portfolio-text a {
+        position: relative;
+        top: 16px;
+        left: 68px;
+        font-size: 30px;
+    }
+    /*==============================
+    counter Section
+    ================================ */
+    .counter-area {
+        padding-top: 40px;
+    }
+    
+    .single-counter {
+        margin-top: 25px;
+    }
+
+    /*==============================
+    Blog Section
+    ================================ */
+    .blog-title {
+        width: 100%;
+        padding-left: 48px;
+    }
+    
+    .blog-title span {
+        bottom: 46%;
+        left: -6%;
+        font-size: 24px;
+    }
+    
+    .blog-title::before {
+        display: none;
+    }
+
+    .single-blog {
+        margin-top: 30px;
+    }
+
+    /*==============================
+    Testimonial Section
+    ================================ */
+    .testimonial {
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    /*==============================
+    Footer Section
+    ================================ */
+    .logo.footer-logo {
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .copy-right span {
+        font-size: 14px;
+    }
+    
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*==============================
+    Mobile Menu_2 Section
+    ================================ */
+    .main-menu .main-nav{
+        display: none;
+    }
+
+    .mobile-menu span{
+        display: block;
+    }
+
+    .logo {
+        padding: 15px 10px;
+    }
+
+    /*==============================
+    Hero Section
+    ================================ */
+    .col-xl-12.col-lg-12.col-md-12 {
+        text-align: center;
+    }
+
+    .single-slider {
+        min-height: 620px;
+    }
+
+    .slider-content {
+        width: 100%;
+    }
+
+    .social-links ul {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .slider-content span{
+        font-size: 24px;
+    }
+    
+    .slider-content h1 {
+        font-size: 60px;
+    }
+    
+    .slider-content h1 span {
+        font-size: 55px;
+    }
+    
+    .slider-content p {
+        font-size: 16px;
+    }
+
+    .circle-inner-one {
+        display: none;
+    }
+
+    /*==============================
+    About Section
+    ================================ */
+    .about-img::after,
+    .about-img::before {
+        display: none;
+    }
+
+    .about-img {
+        padding: 0px 40px;
+    }
+
+    .common-text-title .subtitle {
+        position: relative;
+        transform: rotate(0);
+        left: 0;
+        z-index: 100;
+        font-size: 30px;
+        display: block;
+        top: 0;
+        color: #ef0445;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .common-text-title .subtitle::after {
+        display: none;
+    }
+
+    .common-text-title{
+        padding-top: 40px;
+    }
+
+    .common-text-title h2 {
+        margin-top: 5px;
+        font-size: 28px;
+    }
+
+    .common-text-title p {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+    .button.btn{
+        margin-left: 30px;
+    }
+    
+    /*==============================
+    Service Section
+    ================================ */
+    #services {
+        padding-bottom: 30px;
+    }
+
+    .service-title {
+        padding: 20px 20px 20px 0;
+    }
+
+    .service-title h3 {
+        padding: 0 0 0 0;
+    }
+    
+    .service-title h2 {
+        padding: 8px 0;
+    }
+
+    .octa-processnig {
+        margin-top: 30px;
+    }
+
+    .service-title h2::before {
+        top: 64px;
+    }
+
+    /*==============================
+    Skills Section
+    ================================ */
+    .skill-area {
+        padding-top: 30px;
+    }
+
+    .skill-title::before,
+    .skill-title::after{
+        display: none;
+    }
+
+    .skill-img-content span {
+        font-size: 55px;
+    }
+
+    .skill-img-content h3 {
+        font-size: 26px;
+    }
+
+    .skill-title span {
+        position: relative;
+        font-size: 30px;
+        color: #ef0445;
+        font-weight: 600;
+        transform: rotate(0);
+        left: 0;
+        top: 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }   
+
+    .skill-title span::before {
+        display: none;
+    
+    }
+
+    .skill-title h2 {
+        font-size: 28px;
+    }
+
+    .skill-right-content {
+        padding-left: 0;
+        width: 90%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .skill-inner {
+        padding: 0 40px;
+    }
+    
+    /*==============================
+    counter Section
+    ================================ */
+    .counter-icon {
+        display: none;
+    }
+
+    .single-counter {
+        text-align: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .counter-area {
+        padding-top: 0;
+        padding-bottom: 35px;
+    }
+
+    .counter-content span {
+        font-size: 50px;
+    }
+
+    .counter-content h3 {
+        font-size: 35px;
+    }
+
+    /*==============================
+    Blog Section
+    ================================ */
+    .blog-circle {
+        display: none;
+    }
+    
+    .blog-title {
+        width: 100%;
+    }
+    
+    .blog-title h2 {
+        font-size: 30px;
+    }
+
+    .blog-title span {
+        position: relative;
+        transform: rotate(0);
+        bottom: 16px;
+        left: 0;
+        font-size: 30px;
+    }
+
+    .blog-title::before {
+        display: none;
+    }
+
+    .row.pb-80 {
+        padding-bottom: 20px;
+    }
+
+    .single-blog .single-blog-title {
+        top: 60%;
+    }
+
+    .single-blog {
+        margin-top: 30px;
+    }
+
+    /*==============================
+    Portfolio Section
+    ================================ */
+    #portfolio {
+        padding-bottom: 35px;
+    }
+
+    .col-4.col-lg-4.col-sm-6 {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    /*==============================
+    Testimonial Section
+    ================================ */
+    .testimonial-circle {
+        display: none;
+    }
+
+    .client-review .right-icon {
+        font-size: 90px;
+    }
+
+    .client-review p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    /*==============================
+    Footer Section
+    ================================ */
+    .logo.footer-logo {
+        padding: 5px 0;
+        text-align: center;
+    }
+    .copy-right {
+        padding: 5px 0;
+        text-align: center;
+    }
+    .copy-right a {
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* .container {width:450px} */
+
+}
